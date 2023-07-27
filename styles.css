@@ -1,0 +1,39 @@
+body {
+    background: lightgray;
+    font-family: sans-serif;
+}
+
+.header {
+    background: white;
+    padding: 10px 20px 10px 20px;
+    margin: -10px;
+}
+
+h1 {
+    margin: auto;
+    width: 50%;
+}
+
+.set {
+    margin: auto;
+    margin-top: 40px;
+    width: 50%;
+    background: white;
+}
+
+.setHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px 20px 0px 20px;
+}
+
+.caption {
+    padding: 0px 10px 5px 20px;
+}
+
+#image1 {
+   object-fit: fill;
+   width: 100%; 
+}
